@@ -1,0 +1,26 @@
+.main__first-section{
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+    .first-section__subtext{
+        color:$color-light-midtone;
+        font-size: 0.875rem;
+        margin-bottom: 1px;
+        margin-top: 30px;
+    }
+    .first-section__title{
+        text-transform: capitalize;
+        font-family: $font-family-title;
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    .first-section__text{
+        color: $color-font-text;
+        font-size: 1.125rem;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+
+}

@@ -1,0 +1,57 @@
+.footer{
+    background-color: $color-dark;
+    color: $color-light;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .footer__btn{
+        display: inline-block;
+        background: url(../images/ico-arrow.svg) no-repeat center;
+        background-color: $color-light;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        position: absolute;
+        top:-5%;
+        text-align: center;
+    }
+
+}
+
+.footer__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+    a{
+        text-transform: uppercase;
+        color:$color-light;
+        &:hover{
+            color:$color-contrast;
+        }
+
+    }
+    .footer__pages{
+        margin-bottom: 30px;
+    }
+    .footer__social{
+        margin-bottom: 30px;
+    }
+    .footer__copy{
+        font-size: 0.878rem;
+        p{
+            margin: 0;
+        }
+        .footer__heart{
+            color:$color-contrast;
+        }
+    }
+
+}

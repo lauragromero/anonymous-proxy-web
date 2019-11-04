@@ -1,7 +1,9 @@
 html{
     font-size: 16px;
+    font-family: $font-family;
 }
 
-body{
-    background-color: aqua;
+.wrapper{
+    width: 100%;
+    height: 100%;
 }

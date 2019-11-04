@@ -10,43 +10,50 @@
 
 <body>
   <div class="wrapper">
-    <header></header>
+    <header>
+      <!-- menu hamburguesa -->
+    </header>
     <div class="hero">
-      <h1>anonymous proxy</h1>
-      <p>In hac habitasse platea dictumst</p>
-      <a href=""> <img src="../assets/images/ico-scroll-down.svg" alt="Bajar"></a>
+      <h1 class="header__title">anonymous proxy</h1>
+      <p class="header__text">In hac habitasse platea dictumst</p>
+      <div class="header__go-down">
+        <a href=""> <img src="../assets/images/ico-scroll-down.svg" alt="Bajar"></a>
+      </div>
     </div>
-    <main>
-      <section>
-        <p>insomnia tips</p>
-        <h2>looking thought a window</h2>
-        <p>Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus
+    <main class="main">
+      <section class="main__first-section">
+        <p class="first-section__subtext">insomnia tips</p>
+        <h2 class="first-section__title">looking thought a window</h2>
+        <p class="first-section__text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex
+          diam nec lectus. Vivamus
           semper sodales rutrum.</p>
-        <button>Go</button>
+        <button class="first-section__btn">Go</button>
       </section>
-      <section>
-        <h2>3 reasons to purchase</h2>
-        <article>
-          <h3>Ut sed metus</h3>
-          <p>Lorem, ipsum dolor sit amet, consectetur.</p>
-        </article>
-        <article>
-          <h3>Curabitur ac erat</h3>
-          <p> Mauris mattis urna quis lorem molestie.</p>
-        </article>
-        <article>
-          <h3>Morbi dictum</h3>
-          <p>Aliquam in dolor et dolor tincidunt.</p>
-        </article>
-        <button>More reasons</button>
+      <section class="main__second-section">
+        <h2 class="second-section__title">3 reasons to purchase</h2>
+        <div class="second-section__articles">
+          <article class="second-section__article">
+            <h3>Ut sed metus</h3>
+            <p>Lorem, ipsum dolor sit amet, consectetur.</p>
+          </article>
+          <article class="second-section__article">
+            <h3>Curabitur ac erat</h3>
+            <p> Mauris mattis urna quis lorem molestie.</p>
+          </article>
+          <article class="second-section__article">
+            <h3>Morbi dictum</h3>
+            <p>Aliquam in dolor et dolor tincidunt.</p>
+          </article>
+        </div>
+        <button class="second-section__btn">More reasons</button>
       </section>
-      <footer>
-        <div>
+      <footer class="footer">
+        <div class="footer__btn">
           <a href="#">
             <img src="../assets/images/ico-arrow.svg" alt="subir">
           </a>
         </div>
-        <nav>
+        <nav class="footer__pages">
           <ul>
             <li><a href="">ARTICLES</a></li>
             <li><a href="">BOOKS</a></li>
@@ -55,19 +62,18 @@
             <li><a href="">TIPS</a></li>
           </ul>
         </nav>
-        <nav>
-            <ul>
-              <li><a href="">TWITTER</a></li>
-              <li><a href="">INSTAGRAM</a></li>
-              <li><a href="">MASTODON.SOCIAL</a></li>
-            </ul>
-          </nav>
+        <nav class="footer__social">
+          <ul>
+            <li><a href="">TWITTER</a></li>
+            <li><a href="">INSTAGRAM</a></li>
+            <li><a href="">MASTODON.SOCIAL</a></li>
+          </ul>
+        </nav>
+        <div class="footer__copy">
           <span>©2017</span>
-          <p>We <span>&hearts;</span>components</p>
+          <p>We <span class="footer__heart">&hearts;</span>components</p>
+        </div>
       </footer>
-
-
-
     </main>
 
   </div>

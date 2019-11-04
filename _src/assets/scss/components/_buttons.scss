@@ -6,4 +6,16 @@
     border-radius: 22.5px;
     color: $color-contrast;
     font-size: 1.25rem;
+    margin:0;
+}
+
+.second-section__btn{
+    height: 45px;
+    width: 184px;
+    font-size: 1.25rem;
+    background-color: $color-contrast;
+    border: 2px solid $color-contrast;
+    color: $color-light;
+    border-radius: 22.5px;
+
 }

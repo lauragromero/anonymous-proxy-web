@@ -4,9 +4,8 @@
     background: url(../images/cover.jpg) center ;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    padding-top: 284px;
     margin: $general-margin;
     color: $color-light;
     .hero__title{
@@ -28,6 +27,7 @@
         height: 45px;
         width: 45px;
         border-radius: 50%;
+        margin-bottom: 53px;
 
     }
 }

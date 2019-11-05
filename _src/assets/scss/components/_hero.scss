@@ -57,7 +57,7 @@
         }
         &:hover{
             transform: perspective(400px) translateZ(150px) rotate(160deg);
-            box-shadow: 0px 0px 3px 3px $color-contrast;
+            box-shadow: 0px 0px 2px 2px rgb(241, 167, 103);
         }
         @include tablet{
             margin-bottom: 45px;

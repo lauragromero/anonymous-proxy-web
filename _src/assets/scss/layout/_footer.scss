@@ -27,6 +27,7 @@
         position: absolute;
         top:-5%;
         text-align: center;
+
         @include tablet{
             top:-8%;
         }
@@ -49,6 +50,7 @@
     text-align: center;
     line-height: 30px;
     width: 100%;
+
     @include tablet{
         text-align: left;
         flex-direction: row-reverse;
@@ -101,15 +103,16 @@
 
 
 .animation{
-    animation-name: goUp;
-    animation-duration: 5s;
-    animation-direction:normal;		
+    animation-name: go-up;
+    animation-duration: 4s;
+    animation-direction:normal;	
+    animation-iteration-count: infinite;	
     animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
   }
-@keyframes goUp {
+@keyframes go-up {
     from {
       opacity: 0;
-      transform: translate3d(0, 300px, 0);
+      transform: translate3d(0, 40px, 0);
     }
   
     60% {

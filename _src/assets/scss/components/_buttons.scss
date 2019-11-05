@@ -7,12 +7,21 @@
     color: $color-contrast;
     font-size: 1.25rem;
     margin:0;
+    cursor: pointer; 
+
+    &:hover {
+        transform: scale(1.5);
+        background-color: $color-contrast;
+        color: $color-light;
+    }
     @include tablet{
        width: 91px ;
     }
     @include desktop{
         width: 160px;
     }
+    /* Animacion*/
+    
 }
 
 .second-section__btn{
@@ -23,6 +32,7 @@
     border: 2px solid $color-contrast;
     color: $color-light;
     border-radius: 22.5px;
+    cursor: pointer; 
     @include tablet{
         width: 210px ;
      }

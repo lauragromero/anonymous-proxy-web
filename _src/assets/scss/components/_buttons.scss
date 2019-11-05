@@ -7,6 +7,12 @@
     color: $color-contrast;
     font-size: 1.25rem;
     margin:0;
+    @include tablet{
+       width: 91px ;
+    }
+    @include desktop{
+        width: 160px;
+    }
 }
 
 .second-section__btn{
@@ -17,5 +23,11 @@
     border: 2px solid $color-contrast;
     color: $color-light;
     border-radius: 22.5px;
+    @include tablet{
+        width: 210px ;
+     }
+     @include desktop{
+         width: 255px;
+     }
 
 }

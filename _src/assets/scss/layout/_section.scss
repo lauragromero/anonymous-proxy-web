@@ -3,11 +3,25 @@
     padding-right: 15px;
     line-height: 30px;
     padding-bottom: 45px;
+    padding-top: 30px;
+    margin:$general-margin;
+    @include tablet{
+        padding-left: 39px;
+        padding-right: 39px;
+        max-width: 730px;
+    }
+    @include desktop{
+        padding-bottom: 60px;
+        padding-left:0;
+        padding-right:0;
+        padding-top: 60px;
+    }
     .first-section__subtext{
         color:$color-light-midtone;
         font-size: 0.875rem;
         margin-bottom: 1px;
-        margin-top: 30px;
+        margin-top: 0;
+        
     }
     .first-section__title{
         text-transform: capitalize;
@@ -15,12 +29,22 @@
         font-size: 1.5rem;
         margin-top: 0;
         margin-bottom: 15px;
+        @include tablet{
+            font-size: 1.625rem;
+            margin-bottom: 30px;
+        }
+        @include desktop{
+            font-size: 2rem;
+        }
     }
     .first-section__text{
         color: $color-font-text;
         font-size: 1.125rem;
         margin-top: 0;
         margin-bottom: 30px;
+        @include tablet{
+            font-size: 1.25rem;
+        }
     }
 
 

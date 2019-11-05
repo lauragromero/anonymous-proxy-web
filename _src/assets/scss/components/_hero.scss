@@ -16,11 +16,23 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+        @include tablet{
+            font-size: 5rem;
+            margin-bottom: 20px;
+        }
+        @include desktop{
+            font-size: 6.25rem;
+            margin-bottom: 0;
+        }
     }
     .hero__text{
         font-size: 1rem; 
         margin-bottom: 45px;
         margin-top: 0;
+        @include tablet{
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
     }
     .hero__go-down{
         background: url(../images/ico-scroll-down.svg) no-repeat center;
@@ -29,6 +41,12 @@
         width: 45px;
         border-radius: 50%;
         margin-bottom: 53px;
+        @include tablet{
+            margin-bottom: 45px;
+        }
+        @include desktop{
+            margin-bottom: 13px;
+        }
 
     }
 }

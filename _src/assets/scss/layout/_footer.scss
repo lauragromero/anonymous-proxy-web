@@ -27,6 +27,9 @@
         position: absolute;
         top:-5%;
         text-align: center;
+        @include tablet{
+            top:-8%;
+        }
         a{
             width: 45px;
             height: 45px;

@@ -50,7 +50,7 @@
 .section__grid{
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 180px 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     margin:$general-margin;
     row-gap: 45px;

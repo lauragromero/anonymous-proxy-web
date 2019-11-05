@@ -41,3 +41,12 @@
      }
 
 }
+
+.transition {
+    transition: width 1s, height 1s, margin 1s;
+}
+.transition:hover{
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+}

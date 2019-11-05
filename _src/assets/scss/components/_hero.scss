@@ -40,6 +40,7 @@
         width: 45px;
         border-radius: 50%;
         margin-bottom: 53px;
+
         a{
             width: 45px;
             height: 45px;
@@ -55,9 +56,15 @@
             margin-bottom: 13px;
         }
         
-        transform: rotate(0deg) scale(1);
     }
-    .hero__go-down:hover{
-        transform: rotate(300deg) scale(2);
-    }
+
+}
+
+/* animacion boton bajar*/
+.hero__go-down{
+    transform: perspective(400px) rotateY(0deg);
+        &:hover{
+        transform: perspective(400px) translateZ(150px) rotateY(160deg);
+        box-shadow: 0px 0px 10px 10px $color-contrast;}
+
 }

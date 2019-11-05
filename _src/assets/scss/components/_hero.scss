@@ -35,12 +35,19 @@
         }
     }
     .hero__go-down{
-        background: url(../images/ico-scroll-down.svg) no-repeat center;
         background-color: $color-light;
         height: 45px;
         width: 45px;
         border-radius: 50%;
         margin-bottom: 53px;
+        a{
+            width: 45px;
+            height: 45px;
+            padding: 10px;
+            display: flex;
+            @include flex-center;
+    
+        }
         @include tablet{
             margin-bottom: 45px;
         }

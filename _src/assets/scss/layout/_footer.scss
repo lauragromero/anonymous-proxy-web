@@ -5,12 +5,20 @@
     padding-bottom: 45px;
     padding-left: 15px;
     padding-right: 15px;
+    margin:$general-margin;
     position: relative;
     display: flex;
     justify-content: center;
+    @include tablet{
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 45px;
+    }
+    @include desktop{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .footer__btn{
-        display: inline-block;
-        background: url(../images/ico-arrow.svg) no-repeat center;
         background-color: $color-light;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         width: 45px;
@@ -19,6 +27,13 @@
         position: absolute;
         top:-5%;
         text-align: center;
+        a{
+            width: 45px;
+            height: 45px;
+            padding: 10px;
+            display: flex;
+            @include flex-center;
+        }
     }
 
 }
@@ -26,10 +41,22 @@
 .footer__links{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     text-align: center;
     line-height: 30px;
+    width: 100%;
+    @include tablet{
+        text-align: left;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: baseline;
+    }
+    @include desktop{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 540px;
+    }
     a{
         text-transform: uppercase;
         color:$color-light;
@@ -40,12 +67,22 @@
     }
     .footer__pages{
         margin-bottom: 30px;
+        @include tablet{
+            order: 2;
+        }
+
     }
     .footer__social{
         margin-bottom: 30px;
+        @include tablet{
+            order: 1;
+        }
     }
     .footer__copy{
         font-size: 0.878rem;
+        @include tablet{
+            order: 3;
+        }
         p{
             margin: 0;
         }

@@ -11,75 +11,14 @@
 </head>
 
 <body>
-  <div class="wrapper">
-    <header class="header">
-    </header>
-    <div class="hero">
-      <h1 class="hero__title"> anonymous <br> proxy</h1>
-      <p class="hero__text">In hac habitasse platea dictumst</p>
-      <div class="hero__go-down">
-      <a href="#reason"> <img src="../assets/images/ico-scroll-down.svg" alt="Bajar"> </a>
-    </div>
-    </div>
-    <main class="main">
-      <section class="main__first-section">
-        <p class="first-section__subtext">insomnia tips</p>
-        <h2 class="first-section__title">looking thought a window</h2>
-        <p class="first-section__text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex
-          diam nec lectus. Vivamus
-          semper sodales rutrum.</p>
-        <button class="first-section__btn">Go</button>
-      </section>
-      <section id="reason" class="main__second-section">
-        <h2 class="second-section__title">3 reasons to purchase</h2>
-        <div class="second-section__list">
-          <ul class="section__grid">
-            <li class="second-section__li item1">
-              <h3>Ut sed metus</h3>
-              <p>Lorem, ipsum dolor sit amet, consectetur.</p>
-            </li>
-            <li class="second-section__li item2">
-              <h3>Curabitur ac erat</h3>
-              <p> Mauris mattis urna quis lorem molestie.</p>
-            </li>
-            <li class="second-section__li item3">
-              <h3>Morbi dictum</h3>
-              <p>Aliquam in dolor et dolor tincidunt.</p>
-            </li>
-          </ul>
-        </div>
-        <button class="second-section__btn">More reasons</button>
-      </section>
-      <footer class="footer">
-        <div class="footer__btn"> 
-        <a href="#"><img src="../assets/images/ico-arrow.svg" alt="Subir"></a>
-      </div>
-        <div class="footer__links">
-          <nav class="footer__pages">
-            <ul>
-              <li><a href="">articles</a></li>
-              <li><a href="">books</a></li>
-              <li><a href="">events</a></li>
-              <li><a href="">reasons</a></li>
-              <li><a href="">tips</a></li>
-            </ul>
-          </nav>
-          <nav class="footer__social">
-            <ul>
-              <li><a href="">twitter</a></li>
-              <li><a href="">instagram</a></li>
-              <li><a href="">mastodon.social</a></li>
-            </ul>
-          </nav>
-          <div class="footer__copy">
-            <span>©2017</span>
-            <p>We <span class="footer__heart">&hearts;</span> components</p>
-          </div>
-        </div>
-      </footer>
-    </main>
 
+  <div class="wrapper">
+    <partial src="_header.html" label="header"></partial>
+    <partial src="_hero.html" label="hero"></partial>
+    <partial src="_main.html" label="main"></partial>
+    <partial src="_footer.html" label="footer"></partial>
   </div>
+  
 </body>
 
 </html>

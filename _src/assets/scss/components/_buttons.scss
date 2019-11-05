@@ -20,7 +20,6 @@
     @include desktop{
         width: 160px;
     }
-    /* Animacion*/
     
 }
 
@@ -41,11 +40,9 @@
      }
 
 }
-
-.transition {
-    transition: width 1s, height 1s, margin 1s;
-}
+   
 .transition:hover{
+    transition: width 1s, height 1s, margin 1s;
     width: 50%;
     height: 60px;
     margin: 0 auto;

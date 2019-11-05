@@ -7,8 +7,18 @@
     padding-bottom: 60px;
     text-align: center;
     line-height: 30px;
+    @include tablet{
+        line-height: 45px;
+        padding-right: 39px;
+        padding-left: 39px;
+
+    }
+
+
     @include desktop{
         padding-top: 60px;
+        padding-right: 85px;
+        padding-left: 85px;
     }
 
     .second-section__title{

@@ -16,15 +16,21 @@
         text-align: center;
         margin-top: 0;
         margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         @include tablet{
             font-size: 5rem;
             margin-bottom: 20px;
+            line-height: 106px;
         }
         @include desktop{
             font-size: 6.25rem;
             margin-bottom: 0;
+            line-height: 132px;
         }
     }
+
     .hero__text{
         font-size: 1rem; 
         margin-bottom: 45px;
@@ -34,13 +40,13 @@
             margin-bottom: 30px;
         }
     }
+
     .hero__go-down{
         background-color: $color-light;
         height: 45px;
         width: 45px;
         border-radius: 50%;
         margin-bottom: 53px;
-
         a{
             width: 45px;
             height: 45px;
@@ -48,6 +54,10 @@
             display: flex;
             @include flex-center;
     
+        }
+        &:hover{
+            transform: perspective(400px) translateZ(150px) rotate(160deg);
+            box-shadow: 0px 0px 3px 3px $color-contrast;
         }
         @include tablet{
             margin-bottom: 45px;
@@ -57,14 +67,5 @@
         }
         
     }
-
-}
-
-/* animacion boton bajar*/
-.hero__go-down{
-    transform: perspective(400px) rotateY(0deg);
-        &:hover{
-        transform: perspective(400px) translateZ(150px) rotateY(160deg);
-        box-shadow: 0px 0px 10px 10px $color-contrast;}
 
 }

@@ -21,6 +21,7 @@
         font-size: 0.875rem;
         margin-bottom: 1px;
         margin-top: 0;
+        text-transform: capitalize;
         
     }
     .first-section__title{
@@ -32,6 +33,7 @@
         @include tablet{
             font-size: 1.625rem;
             margin-bottom: 30px;
+            line-height: 45px;
         }
         @include desktop{
             font-size: 2rem;

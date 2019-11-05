@@ -22,12 +22,12 @@
         @include tablet{
             font-size: 5rem;
             margin-bottom: 20px;
-            line-height: 106px;
+            line-height: 6.625rem;
         }
         @include desktop{
             font-size: 6.25rem;
             margin-bottom: 0;
-            line-height: 132px;
+            line-height: 8.25rem;
         }
     }
 

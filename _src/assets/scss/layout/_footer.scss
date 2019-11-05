@@ -48,7 +48,7 @@
     flex-direction: column;
     @include flex-center;
     text-align: center;
-    line-height: 30px;
+    line-height: 1.875rem;
     width: 100%;
 
     @include tablet{
